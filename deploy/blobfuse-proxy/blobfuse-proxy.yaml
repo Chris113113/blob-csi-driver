@@ -64,7 +64,7 @@ spec:
         name: sysctl-install-blobfuse-proxy
         env:
           - name: INSTALL_BLOBFUSE
-            value: "true"
+            value: "false"
           - name: "DEBIAN_FRONTEND"
             value: "noninteractive"
         resources:
